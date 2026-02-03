@@ -9,3 +9,6 @@ npx playwright test
 
 ## Run with Browser
 npx playwright test --headed 
+
+## Run Tests and Generate a Report as a HTML
+npx playwright test --reporter=html
